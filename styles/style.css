@@ -60,7 +60,8 @@ body {
 /* discount style ended */
 /* party style started from here */
 .party-section {
-    background-image: url(../images/Vectorrr.png);
+    margin-top: 20px;
+    background-image: url(../images/Vectorrr.png), linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
