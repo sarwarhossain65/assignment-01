@@ -61,7 +61,7 @@ body {
 /* party style started from here */
 .party-section {
     margin-top: 20px;
-    background-image: url(../images/Vectorrr.png), linear-gradient(to left, rgba(255,0,0,0), rgba(255,0,0,1));
+    background-image: url(../images/Vectorrr.png), linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
@@ -96,4 +96,65 @@ body {
     color: #FFF;
     background-color: #070211;
 }
+
 /* party style ended up */
+/* newsletter section style start from here */
+.newsletter {
+    text-align: center;
+    margin: 50px 12%;
+}
+
+.newsletter img {
+    width: 150px;
+    height: 150px;
+}
+
+.newsletter h1 {
+    color: #070211;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+}
+.newsletter p{
+    text-align: center;
+    margin: 25px 20%;
+}
+.newsletter input{
+    padding: 15px 30px;
+    border-style: none;
+    border-radius: 15px 0 0 15px;
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: -5px;
+}
+.newsletter button{
+    padding: 15px 30px;
+    border-style: none;
+    border-radius: 0 15px 15px 0;
+    background: #F00;
+    color: #FFF;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+/* newsletter ended */
+footer {
+    background: #070211;
+    color: #FFF;
+}
+
+.contacts-text {
+    display: flex;
+    justify-content: space-between;
+    max-width: 80%;
+    align-items: center;
+    padding-left: 50px;
+    border-bottom: 2px solid wheat;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
