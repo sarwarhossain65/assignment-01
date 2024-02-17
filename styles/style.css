@@ -2,6 +2,7 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+/* banner style started from here */
 .banner {
     position: relative;
     background-image: url(../images/Banner\ Image.png);
@@ -10,20 +11,10 @@ body {
     background-position: center;
 }
 
-/* .banner::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.7) 100%), transparent;
-} */
-
 .banner-content {
     text-align: center;
     padding: 170px 340px 170px;
-    color: #FFF;
+    color: #ffffff;
 }
 
 .banner-content h4 {
@@ -34,6 +25,7 @@ body {
     font-size: 72px;
 }
 
+/* banner styles ended up here */
 /* Discount style started from here */
 .offer-section {
     text-align: center;
@@ -57,7 +49,7 @@ body {
     color: #070211;
 }
 
-.offer-img img{
+.offer-img img {
     margin: 20px;
     text-align: center;
     width: 800px;
@@ -300,20 +292,39 @@ body {
 /* newsletter ended */
 footer {
     background: #070211;
+}
+
+.contacts-all {
     color: #FFF;
+    width: 80%;
+    margin: auto;
 }
 
 .contacts-text {
     display: flex;
     justify-content: space-between;
-    max-width: 80%;
+    max-width: 100%;
     align-items: center;
-    padding-left: 50px;
     border-bottom: 2px solid wheat;
+    padding-top: 100px;
+}
+
+.footer-icons {
+    display: flex;
+    gap: 10px;
+    text-align: center;
+    margin: 50px 0;
+    border-bottom: 2px solid wheat;
+    padding-bottom: 50px;
+    /* align-items: center; */
+}
+
+.footer-icons img {
+    width: 64px;
+    height: 64px;
 }
 
 .copyright {
     display: flex;
     justify-content: space-between;
-    margin: 50px;
 }
