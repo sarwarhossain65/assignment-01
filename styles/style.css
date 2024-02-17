@@ -98,10 +98,66 @@ body {
 }
 
 /* party style ended up */
+/* gift portfolio styles started from here */
+.gift-text {
+    width: 80%;
+    margin: auto;
+}
+
+.gift-text h4 {
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+    padding: 10px;
+    margin: 20px 0 5px 0;
+}
+
+.gift-text h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+    padding: 0;
+    margin: 0;
+}
+
+.gift-text p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+}
+
+.gift-photo {
+    margin: auto;
+    height: 450px;
+    width: 80%;
+    text-align: center;
+}
+
+.gift-photo1 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gift-photo2 {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* gift portfolio ended up here */
 /* newsletter section style start from here */
 .newsletter {
     text-align: center;
-    margin: 50px 12%;
+    margin: 661px 12% 0;
+    width: 1320px;
+    height: 616px;
+    background-image: linear-gradient(0 0 0 rgb(40, 35, 35));
 }
 
 .newsletter img {
@@ -116,11 +172,13 @@ body {
     font-weight: 900;
     text-transform: capitalize;
 }
-.newsletter p{
+
+.newsletter p {
     text-align: center;
     margin: 25px 20%;
 }
-.newsletter input{
+
+.newsletter input {
     padding: 15px 30px;
     border-style: none;
     border-radius: 15px 0 0 15px;
@@ -128,7 +186,8 @@ body {
     font-size: 20px;
     margin-right: -5px;
 }
-.newsletter button{
+
+.newsletter button {
     padding: 15px 30px;
     border-style: none;
     border-radius: 0 15px 15px 0;
