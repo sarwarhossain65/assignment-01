@@ -98,9 +98,39 @@ body {
 }
 
 /* party style ended up */
-.location-time{
+/* time and location styes started here */
+.location-time {
     text-align: center;
+    background-image: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0.00) 100%);
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 50px 0;
+    margin-top: 50px;
 }
+
+.location-time span {
+    color: #F00;
+}
+
+.btn-join {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #F00;
+    border-style: none;
+    padding: 16px 32px;
+    border-radius: 10px;
+}
+
+.btn-join:hover {
+    background-color: blueviolet;
+}
+
+/* time and location ended here */
+
 /* gift portfolio styles started from here */
 .gift-text {
     width: 80%;
