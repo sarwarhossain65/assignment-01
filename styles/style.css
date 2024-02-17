@@ -98,6 +98,9 @@ body {
 }
 
 /* party style ended up */
+.location-time{
+    text-align: center;
+}
 /* gift portfolio styles started from here */
 .gift-text {
     width: 80%;
