@@ -57,14 +57,23 @@ body {
     color: #070211;
 }
 
+.offer-img img{
+    margin: 20px;
+    text-align: center;
+    width: 800px;
+    height: 500px;
+}
+
 /* discount style ended */
 /* party style started from here */
 .party-section {
     margin-top: 20px;
-    background-image: url(../images/Vectorrr.png), linear-gradient(to left, rgba(255, 0, 0, 0), rgba(255, 0, 0, 1));
+    background-image: url(../images/Vectorrr.png);
     background-repeat: no-repeat;
     height: 100vh;
     background-position: center;
+    width: 80%;
+    margin: auto;
 }
 
 .party-text {
@@ -130,7 +139,65 @@ body {
 }
 
 /* time and location ended here */
+/* best offer styles started from here */
+.offer-section {
+    margin: 70px 0;
+}
 
+.all-offer {
+    display: flex;
+    gap: 25px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    line-height: 32px;
+}
+
+.all-offer p {
+    /* line-height: 32px; */
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.comming-soon {
+    width: 35%;
+}
+
+.comming-soon h1 {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.comming-soon h3 {
+    color: #F00;
+    text-align: center;
+    font-size: 24px;
+}
+
+.best-offer-img {
+    width: 364px;
+    height: 364px;
+    border-radius: 463px;
+    border: 15px solid #F00;
+    padding: 15px;
+}
+
+.new-year h1 {
+    color: #F00;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.new-year p {
+    text-align: left;
+}
+
+/* best offer ended here */
 /* gift portfolio styles started from here */
 .gift-text {
     width: 80%;
